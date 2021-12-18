@@ -1,0 +1,186 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   
+   body{
+    
+   background-color: rgba(75, 83, 192, 0.568);
+   display: flex;
+   min-height: 100vh;
+   font-size: 13px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   }
+   
+   .nav-main a{
+    color:#fff;
+    text-decoration:none;
+   
+   }
+   
+   ul{
+   
+       list-style: none;
+   
+   }
+
+
+
+
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding:20px 0;
+   margin-right:280px;
+   
+   
+    
+   
+   }
+   
+   
+   
+   .nav-brand{
+    width:70px;
+   }
+   
+   /*Nav Left*/
+   .nav-main ul {
+   display: flex;
+   
+   
+   }
+   
+   
+   .nav-main ul li{
+   padding:30px;
+   
+   }
+   
+   .nav-main ul li a {
+    padding: 2px;
+    
+   
+   }
+   
+   .nav-main ul li a:hover {
+   
+   border-bottom: 2px solid rgb(238, 49, 49);
+   
+   
+   
+   }
+   
+   .nav-main ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+   }
+   
+   
+   .nav-main ul li a{
+   
+   font-size: 19px;
+   
+   }
+   
+   .nav-menu-right a{
+     color: #fff;
+   }
+
+
+   /*NEWS CARDS*/
+
+
+.titulo{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    
+    .news-cards {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr  ;
+    gap:230px;
+    margin: 40px 0;
+    position: absolute;
+    top:150px;
+    left:70px;
+    }
+    
+    .news-cards img {
+      width: 70%;
+      height: 160px;  
+    }
+    
+    .news-cards h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    
+    
+    .news-cards .sub-title{
+      color: #fff;
+      font-family: serif;
+      margin: 5px 0;
+      font-size: 19px;
+    }
+    
+    .news-cards li{
+      font-size:14px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #fff;
+    }
+    
+    
+    .news-cards a {
+     padding: 10px 25PX;
+     color: rgb(243, 243, 243);
+    text-decoration: none;
+     
+     
+    
+    }
+    
+    .news-cards a:hover{
+      box-shadow: 0 0 10px #f80f0f
+    }
+
+
+
+
+
+
+
+
+
+
+    .btn{
+        cursor: pointer;
+        display: inline-block;
+        border: 0;
+        font-weight: bold; 
+        padding: 10px 60px;
+        background: #8a0f0f;
+       color: #fff;
+       font-size: 15px;
+       border: 1px solid rgb(243, 250, 244);
+       margin: 10px 0;
+       border-radius: 15px;
+       
+       }
+       
+       .btn:hover{
+         background:  rgb(248, 11, 3);
+       
+       
+       }
+   
+   

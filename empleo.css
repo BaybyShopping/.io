@@ -1,0 +1,199 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   
+   body{
+    
+   background-color: rgb(120, 123, 158);
+   display: flex;
+   min-height: 100vh;
+   font-size: 13px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   }
+   
+  .nav-menu a{
+    color:#fff;
+    text-decoration:none;
+   
+   }
+   
+   ul{
+   
+       list-style: none;
+   
+   }
+
+
+
+
+
+
+
+/*Navegation*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding:20px 0;
+    position:relative;
+   
+   
+   
+   
+    
+   
+   }
+   
+   
+   
+   .nav-brand{
+    width:70px;
+   }
+   
+   /*Nav Left*/
+   .nav-main ul {
+   display: flex;
+   
+   
+   
+   }
+   
+   
+   .nav-main ul li{
+   padding:35px;
+   }
+   
+   .nav-main ul li a {
+   
+    padding: 2px;
+    
+   
+   
+   }
+   
+   .nav-main ul li a:hover {
+   
+   border-bottom: 2px solid rgb(238, 49, 49);
+   
+   
+   
+   }
+   
+   .nav-main ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+   }
+   
+   
+   .nav-main ul li a{
+   
+   font-size: 19px;
+   
+   }
+   
+   .nav-menu-right a{
+     color: #fff;
+   }
+   
+   
+   
+   
+   .menu-btn{
+     position: absolute;
+     cursor: pointer;
+     top: 17px;;
+     right:30px;
+     z-index:2;
+     color:#fff;
+     display: none;
+   }
+
+
+ .parrafo img {
+ width:100%;
+ position: absolute;
+ top:400px;
+ right:10px;
+
+object-fit: cover;
+
+
+ }
+
+ .parrafo{
+   position: absolute;
+   top:200px;
+   color: #fff;
+   padding:40px 0;
+   left:30px;
+ }
+
+ .parrafo h1{
+   margin-bottom: 20px;
+   font-size:40px;
+ }
+
+ .parrafo p{
+   margin-bottom:30px;
+   font-size:20px;
+ }
+
+ .parrafo li{
+   font-size:20px;
+   padding:10px;
+ }
+
+
+
+
+.lt{
+text-decoration: none;
+
+}
+
+ 
+  
+@media  (max-width:900px){
+
+.parrafo img{
+
+position: absolute;
+top:550px;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+   @media  (max-width:575px){
+   
+  .parrafo img{
+    position: absolute;
+    top:600px;
+  }
+  
+
+  .nav-brand{
+      display:none;
+  }
+
+  .nav-main ul li{
+    padding:15px;
+  }
+
+
+
+   }
