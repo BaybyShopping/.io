@@ -196,6 +196,13 @@ margin-bottom: 150px;
 
 }
 
+.titular h1{
+  color: aliceblue;
+  font-size:40px;
+  text-align: center;
+  font-family: cursive;
+}
+
 
 
 
@@ -492,6 +499,10 @@ color: rgb(255, 255, 255);
      display: block;
    }
 
+   .titular h1{
+     font-size:30px;
+   }
+
 
     .nav-main ul.nav-menu{
       display:block;
@@ -590,6 +601,13 @@ color: rgb(255, 255, 255);
   left: 70px;
 
 
+
+  }
+
+  .titular h1{
+    font-size: 25px;
+    margin:0;
+    text-align: center;
 
   }
 
